@@ -22,7 +22,7 @@ jobs:
         args: predeploy
     - name: GitHub Pages Deploy
       uses: peaceiris/actions-gh-pages@v2.10.1
-      with:
+      env:
         PUBLISH_DIR: ./build
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
