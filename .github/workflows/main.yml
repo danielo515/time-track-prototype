@@ -25,5 +25,5 @@ jobs:
       env:
         PUBLISH_DIR: ./build
         PUBLISH_BRANCH: gh-pages
-        PERSONAL_TOKEN: ${{ secrets.TRAVIS_CI }}
+        ACTIONS_DEPLOY_KEY: ${{ secrets.TRAVIS_CI }}
       
