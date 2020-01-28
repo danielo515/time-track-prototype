@@ -24,5 +24,6 @@ jobs:
       uses: peaceiris/actions-gh-pages@v2.10.1
       env:
         PUBLISH_DIR: ./build
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        PUBLISH_BRANCH: gh-pages
+        PERSONAL_TOKEN: ${{ secrets.TRAVIS_CI }}
       
