@@ -22,6 +22,8 @@ import Paper from "@material-ui/core/Paper";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import clsx from "clsx";
 import data from "./data";
+import { TaskGroup } from './TaskGroup'
+
 const useStyles = makeStyles(theme => ({
   root: {
     width: "100%",
@@ -50,28 +52,7 @@ const useStyles = makeStyles(theme => ({
     }
   }
 }));
-export function TaskGroup({ name, total, lastRun }) {
-  const classes = useStyles();
-  const [open, setOpen] = React.useState(false);
-  const toggle = () => setOpen(!open);
-  return (
-    <React.Fragment>
-      <ListItem button onClick={toggle}>
-        <ListItemText primary={name} secondary={lastRun} />
-        <ListItemText primary="Today" secondary={total} />
-        {open ? <ExpandLess /> : <ExpandMore />}
-      </ListItem>
-      <Collapse in={open} timeout="auto" unmountOnExit>
-        <List component="div" disablePadding>
-          <ListItem button className={classes.nested}>
-            <ListItemText primary="Started" secondary="10 May 2018" />
-            <ListItemText primary="Duration" secondary="5 hours" />
-          </ListItem>
-        </List>
-      </Collapse>
-    </React.Fragment>
-  );
-}
+
 export default function NestedList() {
   const classes = useStyles();
   const [open, setOpen] = React.useState(true);

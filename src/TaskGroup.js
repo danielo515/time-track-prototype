@@ -32,7 +32,6 @@ export function TaskGroup({ name, total, lastRun }) {
           rabo={true}
           classes={{ root: css.leftItem, dense: "rabo" }}
         />
-        RABO
         <ListItemText primary="Today" secondary={total} />
         {open ? <ExpandLess /> : <ExpandMore />}
       </ListItem>
