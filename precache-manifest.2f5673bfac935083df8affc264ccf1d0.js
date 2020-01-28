@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6d9b2e414cf0c5d1a2da43bfd5cbd233",
+    "revision": "9983a726e816613d467f084d643a1098",
     "url": "https://danielorodriguez.com/time-track-prototype/index.html"
   },
   {
-    "revision": "35e29a3cc1f9f5a5e970",
+    "revision": "26d9a48ca445fe91d549",
     "url": "https://danielorodriguez.com/time-track-prototype/static/css/main.f2b848ad.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://danielorodriguez.com/time-track-prototype/static/js/2.08be2cb5.chunk.js.LICENSE"
   },
   {
-    "revision": "35e29a3cc1f9f5a5e970",
-    "url": "https://danielorodriguez.com/time-track-prototype/static/js/main.2402b687.chunk.js"
+    "revision": "26d9a48ca445fe91d549",
+    "url": "https://danielorodriguez.com/time-track-prototype/static/js/main.fbe21ac3.chunk.js"
   },
   {
     "revision": "443fe485a6026ac934e7",
