@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "https://danielorodriguez.com/time-track-prototype/precache-manifest.eca6e483ff6ccddbdf0973e0a9513c86.js"
+  "https://danielorodriguez.com/time-track-prototype/precache-manifest.fa7d57311301a1b7175999d244c9ec88.js"
 );
 
 self.addEventListener('message', (event) => {
