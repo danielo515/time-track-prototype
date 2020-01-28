@@ -16,7 +16,12 @@ jobs:
       uses: CultureHQ/actions-yarn@master
       with:
         args: install
-    - name: deploy
+    - name: build
       uses: CultureHQ/actions-yarn@master
       with:
-        args: deploy
+        args: predeploy
+    - name: GitHub Pages Deploy
+      uses: maxheld83/ghpages@v0.2.1
+      env:
+        BUILD_DIR: build
+      
