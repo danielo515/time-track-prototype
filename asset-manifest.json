@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "https://danielorodriguez.com/time-track-prototype/static/css/main.f2b848ad.chunk.css",
-    "main.js": "https://danielorodriguez.com/time-track-prototype/static/js/main.380534af.chunk.js",
-    "main.js.map": "https://danielorodriguez.com/time-track-prototype/static/js/main.380534af.chunk.js.map",
+    "main.js": "https://danielorodriguez.com/time-track-prototype/static/js/main.fcec8a3b.chunk.js",
+    "main.js.map": "https://danielorodriguez.com/time-track-prototype/static/js/main.fcec8a3b.chunk.js.map",
     "runtime-main.js": "https://danielorodriguez.com/time-track-prototype/static/js/runtime-main.fad6d875.js",
     "runtime-main.js.map": "https://danielorodriguez.com/time-track-prototype/static/js/runtime-main.fad6d875.js.map",
     "static/js/2.c3e93b12.chunk.js": "https://danielorodriguez.com/time-track-prototype/static/js/2.c3e93b12.chunk.js",
     "static/js/2.c3e93b12.chunk.js.map": "https://danielorodriguez.com/time-track-prototype/static/js/2.c3e93b12.chunk.js.map",
     "index.html": "https://danielorodriguez.com/time-track-prototype/index.html",
-    "precache-manifest.fa7d57311301a1b7175999d244c9ec88.js": "https://danielorodriguez.com/time-track-prototype/precache-manifest.fa7d57311301a1b7175999d244c9ec88.js",
+    "precache-manifest.a60d8328faa56f60ff162a3ff90b9885.js": "https://danielorodriguez.com/time-track-prototype/precache-manifest.a60d8328faa56f60ff162a3ff90b9885.js",
     "service-worker.js": "https://danielorodriguez.com/time-track-prototype/service-worker.js",
     "static/css/main.f2b848ad.chunk.css.map": "https://danielorodriguez.com/time-track-prototype/static/css/main.f2b848ad.chunk.css.map",
     "static/js/2.c3e93b12.chunk.js.LICENSE": "https://danielorodriguez.com/time-track-prototype/static/js/2.c3e93b12.chunk.js.LICENSE"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.fad6d875.js",
     "static/js/2.c3e93b12.chunk.js",
     "static/css/main.f2b848ad.chunk.css",
-    "static/js/main.380534af.chunk.js"
+    "static/js/main.fcec8a3b.chunk.js"
   ]
 }
