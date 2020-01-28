@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "https://danielorodriguez.com/time-track-prototype/static/css/main.f2b848ad.chunk.css",
-    "main.js": "https://danielorodriguez.com/time-track-prototype/static/js/main.91f8fa81.chunk.js",
-    "main.js.map": "https://danielorodriguez.com/time-track-prototype/static/js/main.91f8fa81.chunk.js.map",
+    "main.js": "https://danielorodriguez.com/time-track-prototype/static/js/main.de3e6540.chunk.js",
+    "main.js.map": "https://danielorodriguez.com/time-track-prototype/static/js/main.de3e6540.chunk.js.map",
     "runtime-main.js": "https://danielorodriguez.com/time-track-prototype/static/js/runtime-main.fad6d875.js",
     "runtime-main.js.map": "https://danielorodriguez.com/time-track-prototype/static/js/runtime-main.fad6d875.js.map",
     "static/js/2.7964a9e6.chunk.js": "https://danielorodriguez.com/time-track-prototype/static/js/2.7964a9e6.chunk.js",
     "static/js/2.7964a9e6.chunk.js.map": "https://danielorodriguez.com/time-track-prototype/static/js/2.7964a9e6.chunk.js.map",
     "index.html": "https://danielorodriguez.com/time-track-prototype/index.html",
-    "precache-manifest.bd358074b2a33610a54c57d7e28f3601.js": "https://danielorodriguez.com/time-track-prototype/precache-manifest.bd358074b2a33610a54c57d7e28f3601.js",
+    "precache-manifest.7b2a73486ab857245f96375ae0bd59b8.js": "https://danielorodriguez.com/time-track-prototype/precache-manifest.7b2a73486ab857245f96375ae0bd59b8.js",
     "service-worker.js": "https://danielorodriguez.com/time-track-prototype/service-worker.js",
     "static/css/main.f2b848ad.chunk.css.map": "https://danielorodriguez.com/time-track-prototype/static/css/main.f2b848ad.chunk.css.map",
     "static/js/2.7964a9e6.chunk.js.LICENSE": "https://danielorodriguez.com/time-track-prototype/static/js/2.7964a9e6.chunk.js.LICENSE"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.fad6d875.js",
     "static/js/2.7964a9e6.chunk.js",
     "static/css/main.f2b848ad.chunk.css",
-    "static/js/main.91f8fa81.chunk.js"
+    "static/js/main.de3e6540.chunk.js"
   ]
 }
