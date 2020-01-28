@@ -4,27 +4,20 @@ import ListSubheader from "@material-ui/core/ListSubheader";
 import List from "@material-ui/core/List";
 import ListItemIcon from "@material-ui/core/ListItemIcon";
 import ListItem from "@material-ui/core/ListItem";
-import Typography from "@material-ui/core/Typography";
 import ListItemText from "@material-ui/core/ListItemText";
 import Collapse from "@material-ui/core/Collapse";
 import PlayArrow from "@material-ui/icons/PlayArrow";
 import ExpandLess from "@material-ui/icons/ExpandLess";
 import ExpandMore from "@material-ui/icons/ExpandMore";
 import { green } from "@material-ui/core/colors";
-import AppBar from "@material-ui/core/AppBar";
-import Toolbar from "@material-ui/core/Toolbar";
-import IconButton from "@material-ui/core/IconButton";
-import AddIcon from "@material-ui/icons/Add";
-import SearchIcon from "@material-ui/icons/Search";
-import MoreIcon from "@material-ui/icons/More";
-import Fab from "@material-ui/core/Fab";
 import Paper from "@material-ui/core/Paper";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import clsx from "clsx";
 import data from "./data";
 import { TaskGroup } from './TaskGroup'
+import { BottomBar } from "./BottomBar";
 
-const useStyles = makeStyles(theme => ({
+export const useStyles = makeStyles(theme => ({
   root: {
     width: "100%",
     backgroundColor: theme.palette.background.paper,
@@ -37,6 +30,9 @@ const useStyles = makeStyles(theme => ({
   container: {
     display: "flex",
     height: "100%"
+  },
+  nested: {
+    paddingLeft: theme.spacing(4)
   },
   grow: {
     flexGrow: 1
@@ -76,10 +72,10 @@ export default function NestedList() {
           className={classes.root}
         >
           <ListItem button onClick={handleClick}>
+            <ListItemText primary="First task" />
             <ListItemIcon>
               <PlayArrow classes={{ colorPrimary: classes.playingIcon }} />
             </ListItemIcon>
-            <ListItemText primary="First task" />
             {open ? <ExpandLess /> : <ExpandMore />}
           </ListItem>
           <Collapse in={open} timeout="auto" unmountOnExit>
@@ -95,23 +91,8 @@ export default function NestedList() {
           ))}
         </List>
       </Paper>
-      <AppBar position="fixed" color="primary" className={classes.appBar}>
-        <Toolbar>
-          <Typography className={classes.text} variant="h5" gutterBottom>
-            00:10:55
-          </Typography>
-          <Fab color="secondary" aria-label="add" className={classes.fabButton}>
-            <AddIcon />
-          </Fab>
-          <div className={classes.grow} />
-          <IconButton color="inherit">
-            <SearchIcon />
-          </IconButton>
-          <IconButton edge="end" color="inherit">
-            <MoreIcon />
-          </IconButton>
-        </Toolbar>
-      </AppBar>
+      <BottomBar />
+
     </div>
   );
 }
