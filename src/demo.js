@@ -20,11 +20,14 @@ import { BottomBar } from "./BottomBar";
 export const useStyles = makeStyles(theme => ({
   root: {
     width: "100%",
+    overflow: "scroll",
+    maxHeight: "100%",
     backgroundColor: theme.palette.background.paper,
-    marginBottom: theme.spacing(2),
     flexGrow: 1
   },
   paper: {
+    display: "flex",
+    alignItems: "flex-end",
     paddingBottom: 50
   },
   container: {
@@ -62,13 +65,8 @@ export default function NestedList() {
       <CssBaseline />
       <Paper square className={clsx(classes.paper, classes.grow)}>
         <List
-          component="nav"
+          component="main"
           aria-labelledby="nested-list-subheader"
-          subheader={
-            <ListSubheader component="div" id="nested-list-subheader">
-              Nested List Items
-            </ListSubheader>
-          }
           className={classes.root}
         >
           <ListItem button onClick={handleClick}>
