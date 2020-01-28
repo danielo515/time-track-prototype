@@ -1,6 +1,7 @@
 {
   "title": "Material demo",
   "devDependencies": {
+    "gh-pages": "^2.2.0",
     "react-scripts": "latest"
   },
   "description": "https://github.com/mui-org/material-ui/blob/master/docs/src/pages/components/lists/NestedList.js",
@@ -14,6 +15,8 @@
   "name": "timer-app-prototype",
   "version": "0.0.28",
   "scripts": {
+    "predeploy": "PUBLIC_URL=https://danielorodriguez.com/time-track-prototype/ yarn build",
+    "deploy":"gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",

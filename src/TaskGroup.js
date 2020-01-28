@@ -14,25 +14,29 @@ const useStyles = makeStyles(theme => ({
   taskOverView: {
     display: "flex"
   },
+  rightItem: {
+    flex: "0 1 25%",
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "flex-start"
+  },
   leftItem: {
-    flex: "0 1 auto"
+    flex: "1 1 auto"
   }
 }));
 export function TaskGroup({ name, total, lastRun }) {
   const css = useStyles();
   const [open, setOpen] = React.useState(false);
   const toggle = () => setOpen(!open);
-  console.log("rabo puto" + css.leftItem);
   return (
     <React.Fragment>
       <ListItem button onClick={toggle} className={css.taskOverView}>
         <ListItemText
           primary={name}
-          secondary={lastRun + "rabo"}
-          rabo={true}
+          secondary={lastRun}
           classes={{ root: css.leftItem, dense: "rabo" }}
         />
-        <ListItemText primary="Today" secondary={total} />
+        <ListItemText primary="Today" secondary={total} className={css.rightItem}/>
         {open ? <ExpandLess /> : <ExpandMore />}
       </ListItem>
       <Collapse in={open} timeout="auto" unmountOnExit>
