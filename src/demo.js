@@ -28,7 +28,8 @@ export const useStyles = makeStyles(theme => ({
   paper: {
     display: "flex",
     alignItems: "flex-end",
-    paddingBottom: 50
+    paddingBottom: 50,
+    backgroundColor: theme.palette.grey[100],
   },
   container: {
     display: "flex",
