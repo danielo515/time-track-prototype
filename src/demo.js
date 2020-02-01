@@ -41,10 +41,7 @@ export const useStyles = makeStyles(theme => ({
   grow: {
     flexGrow: 1
   },
-  appBar: {
-    top: "auto",
-    bottom: 0
-  },
+
   list: {},
   playingIcon: {
     svg: {
