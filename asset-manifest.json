@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "https://danielorodriguez.com/time-track-prototype/static/css/main.f2b848ad.chunk.css",
-    "main.js": "https://danielorodriguez.com/time-track-prototype/static/js/main.fbe21ac3.chunk.js",
-    "main.js.map": "https://danielorodriguez.com/time-track-prototype/static/js/main.fbe21ac3.chunk.js.map",
+    "main.js": "https://danielorodriguez.com/time-track-prototype/static/js/main.eb5120e8.chunk.js",
+    "main.js.map": "https://danielorodriguez.com/time-track-prototype/static/js/main.eb5120e8.chunk.js.map",
     "runtime-main.js": "https://danielorodriguez.com/time-track-prototype/static/js/runtime-main.fad6d875.js",
     "runtime-main.js.map": "https://danielorodriguez.com/time-track-prototype/static/js/runtime-main.fad6d875.js.map",
-    "static/js/2.08be2cb5.chunk.js": "https://danielorodriguez.com/time-track-prototype/static/js/2.08be2cb5.chunk.js",
-    "static/js/2.08be2cb5.chunk.js.map": "https://danielorodriguez.com/time-track-prototype/static/js/2.08be2cb5.chunk.js.map",
+    "static/js/2.966baf76.chunk.js": "https://danielorodriguez.com/time-track-prototype/static/js/2.966baf76.chunk.js",
+    "static/js/2.966baf76.chunk.js.map": "https://danielorodriguez.com/time-track-prototype/static/js/2.966baf76.chunk.js.map",
     "index.html": "https://danielorodriguez.com/time-track-prototype/index.html",
-    "precache-manifest.2f5673bfac935083df8affc264ccf1d0.js": "https://danielorodriguez.com/time-track-prototype/precache-manifest.2f5673bfac935083df8affc264ccf1d0.js",
+    "precache-manifest.abd6df26128fcf52d4c7a12a8a50ce67.js": "https://danielorodriguez.com/time-track-prototype/precache-manifest.abd6df26128fcf52d4c7a12a8a50ce67.js",
     "service-worker.js": "https://danielorodriguez.com/time-track-prototype/service-worker.js",
     "static/css/main.f2b848ad.chunk.css.map": "https://danielorodriguez.com/time-track-prototype/static/css/main.f2b848ad.chunk.css.map",
-    "static/js/2.08be2cb5.chunk.js.LICENSE": "https://danielorodriguez.com/time-track-prototype/static/js/2.08be2cb5.chunk.js.LICENSE"
+    "static/js/2.966baf76.chunk.js.LICENSE": "https://danielorodriguez.com/time-track-prototype/static/js/2.966baf76.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.fad6d875.js",
-    "static/js/2.08be2cb5.chunk.js",
+    "static/js/2.966baf76.chunk.js",
     "static/css/main.f2b848ad.chunk.css",
-    "static/js/main.fbe21ac3.chunk.js"
+    "static/js/main.eb5120e8.chunk.js"
   ]
 }
